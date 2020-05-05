@@ -1,4 +1,4 @@
-{% set version = '1.0' %}
+{% set version = "1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,12 +45,12 @@ test:
 
 about:
   home: http://rapport-package.info/
-  license: AGPL-3
-  summary: Facilitating the creation of reproducible statistical report templates. Once created,
-    rapport templates can be exported to various external formats (HTML, LaTeX, PDF,
-    ODT etc.) with pandoc as the converter backend.
+  license: AGPL-3.0-only
+  summary: Facilitating the creation of reproducible statistical report templates. Once created, rapport templates can be exported to various external formats (HTML, LaTeX, PDF, ODT etc.) with pandoc as the converter backend.
   license_family: AGPL
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/AGPL-3
 extra:
   recipe-maintainers:
     - conda-forge/r
