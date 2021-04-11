@@ -1,4 +1,4 @@
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/rapport_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rapport/rapport_{{ version }}.tar.gz
-  sha256: 5042c0af899825c00c01756d89a701192666bbdab99253e710bcfb9215573fc4
+  sha256: 4f5798a1c248986df290cd8c008d2abf04238dca68aeec43b634a4a7fc888b91
 
 build:
   noarch: generic
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
