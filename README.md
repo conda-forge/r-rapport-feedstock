@@ -1,11 +1,11 @@
-About r-rapport
-===============
+About r-rapport-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rapport-feedstock/blob/main/LICENSE.txt)
 
 Home: http://rapport-package.info/
 
 Package license: AGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rapport-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilitating the creation of reproducible statistical report templates. Once created, rapport templates can be exported to various external formats (HTML, LaTeX, PDF, ODT etc.) with pandoc as the converter backend.
 
